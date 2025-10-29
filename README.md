@@ -7,6 +7,8 @@ A user-friendly desktop application for manually reviewing and validating AI pre
 
 ## What is This?
 
+![Application Screenshot](https://i.imgur.com/vX18Q6t.png)
+
 This application provides a graphical interface for medical professionals to review radiology reports and validate AI model predictions for pulmonary embolism. The tool displays:
 - Full medical report text with keyword highlighting
 - AI model predictions (SVM, LLM, Regex)
@@ -131,30 +133,6 @@ The application has three main sections:
 - **Top right**: Shows how many reports you've reviewed out of the total
 - **Progress bar**: Visual indicator of overall completion
 - **Auto-position**: On launch, automatically jumps to the first unreviewed report
-
----
-
-## Frequently Asked Questions
-
-### Q: What if I get an error about Python not found?
-**A:** Make sure Python is installed and added to your system PATH. Try reinstalling Python and check "Add Python to PATH" during installation.
-
-### Q: What if I get an error about tkinter?
-**A:**
-- **Windows/macOS**: Reinstall Python from python.org (tkinter is included)
-- **Linux**: Run `sudo apt-get install python3-tk`
-
-### Q: What if I accidentally close the application?
-**A:** No problem! Your work is saved after each review. Just reopen the application and continue where you left off.
-
-### Q: How do I know my changes are saved?
-**A:** The application saves automatically when you click "Next" or "Save". You'll see a green "✓ Saved" message briefly appear.
-
-### Q: Can I change the CSV file after setup?
-**A:** Yes! Just edit `config.ini` and change the `csv_file` setting to your new file name.
-
-### Q: What if my CSV has different column names?
-**A:** Your CSV must have specific column names for the application to work. See `data/README_CSV_FORMAT.md` for details. You may need to rename columns in your CSV to match the required format.
 
 ---
 
