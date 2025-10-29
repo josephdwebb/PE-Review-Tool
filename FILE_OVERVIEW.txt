@@ -1,0 +1,160 @@
+PE REVIEWER - FILE STRUCTURE OVERVIEW
+=====================================
+
+ROOT DIRECTORY:
+---------------
+📄 README.md                    - Main documentation (comprehensive user guide)
+📄 LICENSE                      - MIT License (© 2025 Joseph Webb)
+📄 CONTRIBUTING.md              - Guidelines for contributors
+📄 GITHUB_SETUP.md             - Step-by-step GitHub publication guide
+📄 PROJECT_SUMMARY.md          - Summary of all changes made
+📄 FILE_OVERVIEW.txt           - This file
+📄 .gitignore                  - Protects patient data from GitHub upload
+
+CONFIGURATION:
+--------------
+⚙️ config.ini                  - User-editable configuration
+   └─ Set your CSV filename here!
+
+PYTHON CODE:
+------------
+🐍 reviewcode.py               - Main application (enhanced with config support)
+📄 requirements.txt            - Python package dependencies (pandas)
+
+SETUP SCRIPTS:
+--------------
+🪟 setup.bat                   - Windows: Install dependencies
+🍎 setup.sh                    - Mac/Linux: Install dependencies
+   (Run ONCE before first use)
+
+RUN SCRIPTS:
+------------
+🪟 run.bat                     - Windows: Launch application
+🍎 run.sh                      - Mac/Linux: Launch application
+   (Run EVERY TIME to start the app)
+
+DATA FOLDER:
+------------
+📁 data/
+   ├─ 📄 csv_template.csv      - Example CSV file format
+   └─ 📄 README_CSV_FORMAT.md  - Complete CSV column documentation
+
+DOCUMENTATION FOLDER:
+--------------------
+📁 docs/
+   ├─ 📄 QUICKSTART.md         - Quick 5-step installation guide
+   └─ 📄 TROUBLESHOOTING.md    - Detailed problem-solving guide
+
+YOUR DATA FILES:
+----------------
+📊 Review_Cohort_Webb.csv      - Your actual data (excluded from GitHub)
+📊 [Any other .csv files]      - Also excluded from GitHub
+
+
+QUICK REFERENCE:
+================
+
+FOR YOU (Project Owner):
+------------------------
+1. Read: GITHUB_SETUP.md → Publish to GitHub
+2. Read: PROJECT_SUMMARY.md → See what was changed
+
+FOR COLLABORATORS (End Users):
+------------------------------
+1. Install Python 3.8+ from python.org
+2. Download this project from GitHub (ZIP or clone)
+3. Run setup.bat (Windows) or ./setup.sh (Mac/Linux)
+4. Edit config.ini → Set your CSV filename
+5. Put your CSV file in this folder
+6. Run run.bat (Windows) or ./run.sh (Mac/Linux)
+7. Start reviewing!
+
+If problems: Read docs/TROUBLESHOOTING.md
+
+IMPORTANT NOTES:
+================
+
+✅ CSV files are PROTECTED:
+   - .gitignore excludes all .csv files (except template)
+   - Your patient data will NOT be uploaded to GitHub
+   - Only the template csv will be shared
+
+✅ Easy Configuration:
+   - Users only need to edit config.ini
+   - No Python coding required
+   - Clear error messages if misconfigured
+
+✅ Cross-Platform:
+   - Works on Windows, Mac, and Linux
+   - Separate scripts for each platform
+   - Tested instructions for all systems
+
+✅ Professional Documentation:
+   - Multiple documentation levels
+   - Beginner-friendly instructions
+   - Comprehensive troubleshooting
+   - Example data included
+
+WHAT YOUR COLLABORATORS NEED:
+==============================
+
+Required Software:
+- Python 3.8 or higher (from python.org)
+- That's it! Setup script handles the rest
+
+Required Files (from GitHub):
+- All files in this directory
+- Their own CSV file (not from GitHub)
+
+Skills Needed:
+- Ability to install Python
+- Ability to edit text file (config.ini)
+- Ability to double-click a script to run it
+- Medical knowledge to review reports
+
+NOT Required:
+- Python coding experience ❌
+- Git/GitHub expertise ❌
+- Command line experience ❌ (optional)
+- Programming knowledge ❌
+
+FILE SIZES:
+===========
+Code & Docs:  < 1 MB (easy to download)
+Dependencies: ~50 MB (automatically downloaded during setup)
+Your CSV:     Varies (not uploaded to GitHub)
+
+GITHUB REPOSITORY CHECKLIST:
+============================
+Before uploading:
+☐ Verify .gitignore is present
+☐ Verify no patient CSV files will be uploaded
+☐ Update README.md with your info (✓ Done - jdwebb@bu.edu)
+☐ Update LICENSE with your name (✓ Done - Joseph Webb)
+☐ Test setup.bat/setup.sh works
+☐ Test run.bat/run.sh works
+
+After uploading:
+☐ Add repository description
+☐ Add topics/tags (medical-imaging, python, radiology, etc.)
+☐ Enable Issues for bug reports
+☐ Create v1.0.0 release
+☐ Share URL with collaborators
+
+NEXT STEPS:
+===========
+1. Test the setup:
+   > cd "C:\Users\Joe\Desktop\ChestImaging"
+   > setup.bat
+   > run.bat
+
+2. If everything works, publish to GitHub:
+   > Follow GITHUB_SETUP.md
+
+3. Share with collaborators:
+   > Send them the GitHub URL
+   > Point them to README.md
+
+=====================================
+PROJECT STATUS: ✅ READY FOR GITHUB
+=====================================

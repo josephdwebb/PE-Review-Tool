@@ -1,0 +1,11 @@
+# PE Reviewer - Required Python Packages
+# Install with: pip install -r requirements.txt
+
+# Data manipulation
+pandas>=2.0.0
+
+# Note: tkinter comes pre-installed with Python on most systems
+# If you get an error about tkinter, you may need to install it separately:
+#   - Windows: tkinter is included with Python installer
+#   - macOS: tkinter is included with Python installer
+#   - Linux: sudo apt-get install python3-tk
